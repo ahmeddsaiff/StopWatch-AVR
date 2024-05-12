@@ -1,0 +1,8 @@
+Buzzer was added
+
+Fcpu = 1Mhz		Ftimer = Fcpu / N = 976.56hz	N = 1024
+
+			Ttimer = 1 / Ftimer = 1.024msec
+
+compare value 976 -->> 976 *  1.024msec = 1 sec
+therefore compare every 1 sec -->> therefore we need 1 compare to count 1 sec
